@@ -296,3 +296,11 @@
     </section>
   </main>
 </template>
+<script>
+import GalleryScroll from '@/components/galleryScroll.vue'
+export default {
+  components: {
+    GalleryScroll,
+  },
+}
+</script>

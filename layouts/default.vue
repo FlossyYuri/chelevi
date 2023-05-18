@@ -9,19 +9,23 @@
               <div class="col-sm-12 display-flex v-center">
                 <div class="header_left_logo">
                   <a href="./" class="logo">
-                    <img src="images/logo.png" alt="" />
+                    <img src="~/assets/images/logo.png" alt="" />
                   </a>
                 </div>
                 <div class="header_mainmenu text-center">
                   <!-- main nav start -->
                   <nav class="mainmenu_wrapper">
                     <ul class="mainmenu nav sf-menu">
-                      <li class="active"><a href="index.html">Home</a></li>
-                      <li><a href="about.html">Sobre</a></li>
-                      <li><a href="services.html">Serviços</a></li>
-                      <li><a href="gallery-tile.html">Galeria</a></li>
-                      <li><a href="shop.html">Shop</a></li>
-                      <li><a href="contact.html">Contactos</a></li>
+                      <li><nuxt-link to="/">Home</nuxt-link></li>
+                      <li><nuxt-link to="about">Sobre</nuxt-link></li>
+                      <li><nuxt-link to="services">Serviços</nuxt-link></li>
+                      <li><nuxt-link to="events">Eventos</nuxt-link></li>
+                      <li><nuxt-link to="blog">Blog</nuxt-link></li>
+                      <li>
+                        <nuxt-link to="gallery-tile">Galeria</nuxt-link>
+                      </li>
+                      <li><nuxt-link to="shop">Shop</nuxt-link></li>
+                      <li><nuxt-link to="contact">Contactos</nuxt-link></li>
                     </ul>
                   </nav>
                   <!-- eof main nav -->
@@ -79,8 +83,11 @@
                             <ul class="cart_list product_list_widget">
                               <li class="media">
                                 <div class="media-left media-middle">
-                                  <a href="shop-product.html">
-                                    <img src="images/shop/03.jpg" alt="" />
+                                  <a href="shop-product">
+                                    <img
+                                      src="~/assets/images/shop/03.jpg"
+                                      alt=""
+                                    />
                                   </a>
                                 </div>
                                 <div class="media-body media-middle">
@@ -90,7 +97,7 @@
                                     title="Remove this item"
                                   ></a>
                                   <p class="darklinks">
-                                    <a href="shop-product.html"
+                                    <a href="shop-product"
                                       >Heather grey pullover</a
                                     >
                                   </p>
@@ -102,8 +109,11 @@
                               </li>
                               <li class="media">
                                 <div class="media-left media-middle">
-                                  <a href="shop-product.html">
-                                    <img src="images/shop/05.jpg" alt="" />
+                                  <a href="shop-product">
+                                    <img
+                                      src="~/assets/images/shop/05.jpg"
+                                      alt=""
+                                    />
                                   </a>
                                 </div>
                                 <div class="media-body media-middle">
@@ -113,9 +123,7 @@
                                     title="Remove this item"
                                   ></a>
                                   <p class="darklinks">
-                                    <a href="shop-product.html"
-                                      >Slim short dress</a
-                                    >
+                                    <a href="shop-product">Slim short dress</a>
                                   </p>
                                   <span class="product-quantity">
                                     <span class="price">$34.95</span>
@@ -129,12 +137,10 @@
                               <span class="price">$69.94</span>
                             </p>
                             <p class="buttons">
-                              <a href="shop-cart.html" class="theme_button"
+                              <a href="shop-cart" class="theme_button"
                                 >View cart</a
                               >
-                              <a
-                                href="shop-cart.html"
-                                class="theme_button color1"
+                              <a href="shop-cart" class="theme_button color1"
                                 >Checkout</a
                               >
                             </p>

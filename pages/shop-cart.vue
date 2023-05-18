@@ -274,7 +274,7 @@
   </main>
 </template>
 <script>
-import GalleryScroll from '@/components/gallery_scroll.vue'
+import GalleryScroll from '@/components/galleryScroll.vue'
 export default {
   components: {
     GalleryScroll,

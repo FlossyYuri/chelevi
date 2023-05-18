@@ -99,35 +99,8 @@
         </div>
       </div>
     </section>
-    <section
-      id="about"
-      class="ls section_padding_top_150 section_padding_bottom_150"
-    >
-      <div class="container">
-        <div class="row flex-wrap v-center">
-          <div class="col-md-6">
-            <img src="~/assets/images/about.png" alt="" class="about-cover" />
-          </div>
-          <div class="col-md-6">
-            <h2 class="section_header">Organic Textilles</h2>
-            <p class="small-text grey">for a better future</p>
-            <p>
-              We’re an eco-friendly company certified by Control Union
-              certifications with GOTS and Organic Content Standard (Organic 100
-              and Organic Blended) and able to produce a wide range of organic
-              cotton, bamboo and Tencel clothing. We located in Aegean, one of
-              the best regions in the world in high quality organic cotton
-              production.
-            </p>
-            <div class="toppadding_40 visible-lg"></div>
-            <div class="content-justify v-center v-spacing">
-              <img src="~/assets/images/stamps.png" alt="" />
-              <img src="~/assets/images/signature.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
+    <our-textiles />
     <section class="ls section_padding_top_150 section_padding_bottom_150">
       <div class="container">
         <div class="row">
@@ -519,10 +492,13 @@
   </main>
 </template>
 <script>
-import GalleryScroll from '@/components/gallery_scroll.vue'
+import GalleryScroll from '@/components/galleryScroll.vue'
+import OurTextiles from '@/components/OurTextiles.vue'
 export default {
   components: {
     GalleryScroll,
+    OurTextiles
   },
 }
 </script>
+<script>

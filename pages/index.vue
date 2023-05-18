@@ -1,225 +1,17 @@
 <template>
   <main>
-    <section class="intro_section page_mainslider cs all-scr-cover">
-      <div class="flexslider h-full" data-dots="false" data-nav="true">
-        <ul class="slides h-full">
-          <li>
-            <div class="slide-image-wrap">
-              <img src="@/assets/images/slide01.jpg" alt="" />
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="slide_description_wrapper">
-                    <div class="slide_description">
-                      <div
-                        class="intro-layer to_animate"
-                        data-animation="fadeInUp"
-                      >
-                        <p>
-                          <span class="light_bg_color small-text"
-                            >Roupas Femininas</span
-                          >
-                        </p>
-                      </div>
-                      <div
-                        class="intro-layer to_animate"
-                        data-animation="fadeInUp"
-                      >
-                        <p>
-                          <span class="hero-text">2k<i>23</i></span>
-                        </p>
-                      </div>
-                      <div
-                        class="intro-layer to_animate"
-                        data-animation="fadeInUp"
-                      >
-                        <p>
-                          <span class="small-text big-spacing"
-                            >coleção exclusiva</span
-                          >
-                        </p>
-                      </div>
-                      <div
-                        class="intro-layer to_animate"
-                        data-animation="fadeInUp"
-                      >
-                        <div class="slide_buttons">
-                          <a href="shop" class="theme_button min_width_button"
-                            >ir para loja</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                    <!-- eof .slide_description -->
-                  </div>
-                  <!-- eof .slide_description_wrapper -->
-                </div>
-                <!-- eof .col-* -->
-              </div>
-              <!-- eof .row -->
-            </div>
-            <!-- eof .container -->
-          </li>
-          <li>
-            <div class="slide-image-wrap">
-              <img src="@/assets/images/slide02.jpg" alt="" />
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="slide_description_wrapper">
-                    <div class="slide_description">
-                      <div
-                        class="intro-layer to_animate"
-                        data-animation="fadeInUp"
-                      >
-                        <p>
-                          <span class="light_bg_color small-text"
-                            >Roupas masculinas</span
-                          >
-                        </p>
-                      </div>
-                      <div
-                        class="intro-layer to_animate"
-                        data-animation="fadeInUp"
-                      >
-                        <p>
-                          <span class="hero-text">2k<i>23</i></span>
-                        </p>
-                      </div>
-                      <div
-                        class="intro-layer to_animate"
-                        data-animation="fadeInUp"
-                      >
-                        <p>
-                          <span class="small-text big-spacing"
-                            >coleção exclusiva</span
-                          >
-                        </p>
-                      </div>
-                      <div
-                        class="intro-layer to_animate"
-                        data-animation="fadeInUp"
-                      >
-                        <div class="slide_buttons">
-                          <a href="shop" class="theme_button min_width_button"
-                            >ir para loja</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                    <!-- eof .slide_description -->
-                  </div>
-                  <!-- eof .slide_description_wrapper -->
-                </div>
-                <!-- eof .col-* -->
-              </div>
-              <!-- eof .row -->
-            </div>
-            <!-- eof .container -->
-          </li>
-          <li>
-            <div class="slide-image-wrap">
-              <img src="@/assets/images/slide03.jpg" alt="" />
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="slide_description_wrapper">
-                    <div class="slide_description">
-                      <div
-                        class="intro-layer to_animate"
-                        data-animation="fadeInUp"
-                      >
-                        <p>
-                          <span class="light_bg_color small-text"
-                            >Roupas infatis</span
-                          >
-                        </p>
-                      </div>
-                      <div
-                        class="intro-layer to_animate"
-                        data-animation="fadeInUp"
-                      >
-                        <p>
-                          <span class="hero-text">2k<i>23</i></span>
-                        </p>
-                      </div>
-                      <div
-                        class="intro-layer to_animate"
-                        data-animation="fadeInUp"
-                      >
-                        <p>
-                          <span class="small-text big-spacing"
-                            >coleção exclusiva</span
-                          >
-                        </p>
-                      </div>
-                      <div
-                        class="intro-layer to_animate"
-                        data-animation="fadeInUp"
-                      >
-                        <div class="slide_buttons">
-                          <a href="shop" class="theme_button min_width_button"
-                            >ir para loja</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                    <!-- eof .slide_description -->
-                  </div>
-                  <!-- eof .slide_description_wrapper -->
-                </div>
-                <!-- eof .col-* -->
-              </div>
-              <!-- eof .row -->
-            </div>
-            <!-- eof .container -->
-          </li>
-        </ul>
-      </div>
-      <!-- eof flexslider -->
-    </section>
-    <section
-      id="about"
-      class="ls section_padding_top_150 section_padding_bottom_150"
-    >
-      <div class="container">
-        <div class="row flex-wrap v-center">
-          <div class="col-md-6">
-            <img src="@/assets/images/about.png" alt="" class="about-cover" />
-          </div>
-          <div class="col-md-6">
-            <h2 class="section_header">Os nossos tecidos</h2>
-            <p class="small-text grey">para um futuro melhor</p>
-            <p>
-              No Chelevi, utilizamos apenas os melhores tecidos disponíveis no
-              mercado. Desde sedas e algodões finos a lãs e linhos, nossas
-              roupas são criadas com materiais de alta qualidade que duram anos.
-              Nós também nos preocupamos com a sustentabilidade, por isso
-              escolhemos materiais orgânicos e de produção ética sempre que
-              possível.
-            </p>
-            <div class="toppadding_40 visible-lg"></div>
-            <div class="content-justify v-center v-spacing">
-              <img src="@/assets/images/stamps.png" alt="" />
-              <img src="@/assets/images/signature.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <main-carrousel />
+    <our-textiles />
     <section id="products" class="ls fluid_padding_0 columns_padding_0">
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 text-center">
             <h2 class="section_header">Os nossos tecidos</h2>
             <div class="filters carousel_filters">
-              <a href="/" data-filter="*">Todos</a>
-              <a href="/" data-filter=".men">Homem</a>
-              <a href="/" data-filter=".women">Mulher</a>
-              <a href="/" data-filter=".kids">Crianças</a>
+              <a href="#" data-filter="*">Todos</a>
+              <a href="#" data-filter=".men">Homem</a>
+              <a href="#" data-filter=".women">Mulher</a>
+              <a href="#" data-filter=".kids">Crianças</a>
             </div>
             <div
               class="owl-carousel products-carousel gallery-carousel"
@@ -238,8 +30,8 @@
                 <div class="item-media-wrap bottommargin_25">
                   <div class="item-media">
                     <a href="shop-product">
-                      <img src="@/assets/images/shop/01.jpg" alt="" />
-                      <img src="@/assets/images/shop/01-1.jpg" alt="" />
+                      <img src="~/assets/images/shop/01.jpg" alt="" />
+                      <img src="~/assets/images/shop/01-1.jpg" alt="" />
                     </a>
                     <div class="product_buttons darklinks">
                       <a
@@ -263,7 +55,7 @@
                       <a
                         class="p-view prettyPhoto"
                         data-gal="prettyPhoto[product1-gal]"
-                        href="@/assets/images/shop/01.jpg"
+                        href="~/assets/images/shop/01.jpg"
                         data-toggle="tooltip"
                         title="Expandir foto"
                       >
@@ -274,7 +66,7 @@
                         class="p-view prettyPhoto sr-only"
                         title=""
                         data-gal="prettyPhoto[product1-gal]"
-                        href="@/assets/images/shop/01-1.jpg"
+                        href="~/assets/images/shop/01-1.jpg"
                       ></a>
                     </div>
                   </div>
@@ -291,8 +83,8 @@
                 <div class="item-media-wrap bottommargin_25">
                   <div class="item-media">
                     <a href="shop-product">
-                      <img src="@/assets/images/shop/02.jpg" alt="" />
-                      <img src="@/assets/images/shop/02-1.jpg" alt="" />
+                      <img src="~/assets/images/shop/02.jpg" alt="" />
+                      <img src="~/assets/images/shop/02-1.jpg" alt="" />
                     </a>
                     <div class="product_buttons darklinks">
                       <a
@@ -316,7 +108,7 @@
                       <a
                         class="p-view prettyPhoto"
                         data-gal="prettyPhoto[product2-gal]"
-                        href="@/assets/images/shop/02.jpg"
+                        href="~/assets/images/shop/02.jpg"
                         data-toggle="tooltip"
                         title="Expandir foto"
                       >
@@ -327,7 +119,7 @@
                         class="p-view prettyPhoto sr-only"
                         title=""
                         data-gal="prettyPhoto[product2-gal]"
-                        href="@/assets/images/shop/02-1.jpg"
+                        href="~/assets/images/shop/02-1.jpg"
                       ></a>
                     </div>
                   </div>
@@ -345,8 +137,8 @@
                 <div class="item-media-wrap bottommargin_25">
                   <div class="item-media">
                     <a href="shop-product">
-                      <img src="@/assets/images/shop/03.jpg" alt="" />
-                      <img src="@/assets/images/shop/03-1.jpg" alt="" />
+                      <img src="~/assets/images/shop/03.jpg" alt="" />
+                      <img src="~/assets/images/shop/03-1.jpg" alt="" />
                     </a>
                     <div class="product_buttons darklinks">
                       <a
@@ -370,7 +162,7 @@
                       <a
                         class="p-view prettyPhoto"
                         data-gal="prettyPhoto[product3-gal]"
-                        href="@/assets/images/shop/03.jpg"
+                        href="~/assets/images/shop/03.jpg"
                         data-toggle="tooltip"
                         title="Expandir foto"
                       >
@@ -381,7 +173,7 @@
                         class="p-view prettyPhoto sr-only"
                         title=""
                         data-gal="prettyPhoto[product3-gal]"
-                        href="@/assets/images/shop/03-1.jpg"
+                        href="~/assets/images/shop/03-1.jpg"
                       ></a>
                     </div>
                   </div>
@@ -398,8 +190,8 @@
                 <div class="item-media-wrap bottommargin_25">
                   <div class="item-media">
                     <a href="shop-product">
-                      <img src="@/assets/images/shop/04.jpg" alt="" />
-                      <img src="@/assets/images/shop/04-1.jpg" alt="" />
+                      <img src="~/assets/images/shop/04.jpg" alt="" />
+                      <img src="~/assets/images/shop/04-1.jpg" alt="" />
                     </a>
                     <div class="product_buttons darklinks">
                       <a
@@ -423,7 +215,7 @@
                       <a
                         class="p-view prettyPhoto"
                         data-gal="prettyPhoto[product4-gal]"
-                        href="@/assets/images/shop/04.jpg"
+                        href="~/assets/images/shop/04.jpg"
                         data-toggle="tooltip"
                         title="Expandir foto"
                       >
@@ -434,7 +226,7 @@
                         class="p-view prettyPhoto sr-only"
                         title=""
                         data-gal="prettyPhoto[product4-gal]"
-                        href="@/assets/images/shop/04-1.jpg"
+                        href="~/assets/images/shop/04-1.jpg"
                       ></a>
                     </div>
                   </div>
@@ -452,8 +244,8 @@
                 <div class="item-media-wrap bottommargin_25">
                   <div class="item-media">
                     <a href="shop-product">
-                      <img src="@/assets/images/shop/05.jpg" alt="" />
-                      <img src="@/assets/images/shop/05-1.jpg" alt="" />
+                      <img src="~/assets/images/shop/05.jpg" alt="" />
+                      <img src="~/assets/images/shop/05-1.jpg" alt="" />
                     </a>
                     <div class="product_buttons darklinks">
                       <a
@@ -477,7 +269,7 @@
                       <a
                         class="p-view prettyPhoto"
                         data-gal="prettyPhoto[product5-gal]"
-                        href="@/assets/images/shop/05.jpg"
+                        href="~/assets/images/shop/05.jpg"
                         data-toggle="tooltip"
                         title="Expandir foto"
                       >
@@ -488,7 +280,7 @@
                         class="p-view prettyPhoto sr-only"
                         title=""
                         data-gal="prettyPhoto[product5-gal]"
-                        href="@/assets/images/shop/05-1.jpg"
+                        href="~/assets/images/shop/05-1.jpg"
                       ></a>
                     </div>
                   </div>
@@ -507,8 +299,8 @@
                 <div class="item-media-wrap bottommargin_25">
                   <div class="item-media">
                     <a href="shop-product">
-                      <img src="@/assets/images/shop/06.jpg" alt="" />
-                      <img src="@/assets/images/shop/06-1.jpg" alt="" />
+                      <img src="~/assets/images/shop/06.jpg" alt="" />
+                      <img src="~/assets/images/shop/06-1.jpg" alt="" />
                     </a>
                     <div class="product_buttons darklinks">
                       <a
@@ -532,7 +324,7 @@
                       <a
                         class="p-view prettyPhoto"
                         data-gal="prettyPhoto[product6-gal]"
-                        href="@/assets/images/shop/06.jpg"
+                        href="~/assets/images/shop/06.jpg"
                         data-toggle="tooltip"
                         title="Expandir foto"
                       >
@@ -543,7 +335,7 @@
                         class="p-view prettyPhoto sr-only"
                         title=""
                         data-gal="prettyPhoto[product6-gal]"
-                        href="@/assets/images/shop/06-1.jpg"
+                        href="~/assets/images/shop/06-1.jpg"
                       ></a>
                     </div>
                   </div>
@@ -560,8 +352,8 @@
                 <div class="item-media-wrap bottommargin_25">
                   <div class="item-media">
                     <a href="shop-product">
-                      <img src="@/assets/images/shop/07.jpg" alt="" />
-                      <img src="@/assets/images/shop/07-1.jpg" alt="" />
+                      <img src="~/assets/images/shop/07.jpg" alt="" />
+                      <img src="~/assets/images/shop/07-1.jpg" alt="" />
                     </a>
                     <div class="product_buttons darklinks">
                       <a
@@ -585,7 +377,7 @@
                       <a
                         class="p-view prettyPhoto"
                         data-gal="prettyPhoto[product7-gal]"
-                        href="@/assets/images/shop/07.jpg"
+                        href="~/assets/images/shop/07.jpg"
                         data-toggle="tooltip"
                         title="Expandir foto"
                       >
@@ -596,7 +388,7 @@
                         class="p-view prettyPhoto sr-only"
                         title=""
                         data-gal="prettyPhoto[product7-gal]"
-                        href="@/assets/images/shop/07-1.jpg"
+                        href="~/assets/images/shop/07-1.jpg"
                       ></a>
                     </div>
                   </div>
@@ -614,8 +406,8 @@
                 <div class="item-media-wrap bottommargin_25">
                   <div class="item-media">
                     <a href="shop-product">
-                      <img src="@/assets/images/shop/08.jpg" alt="" />
-                      <img src="@/assets/images/shop/08-1.jpg" alt="" />
+                      <img src="~/assets/images/shop/08.jpg" alt="" />
+                      <img src="~/assets/images/shop/08-1.jpg" alt="" />
                     </a>
                     <div class="product_buttons darklinks">
                       <a
@@ -639,7 +431,7 @@
                       <a
                         class="p-view prettyPhoto"
                         data-gal="prettyPhoto[product8-gal]"
-                        href="@/assets/images/shop/08.jpg"
+                        href="~/assets/images/shop/08.jpg"
                         data-toggle="tooltip"
                         title="Expandir foto"
                       >
@@ -650,7 +442,7 @@
                         class="p-view prettyPhoto sr-only"
                         title=""
                         data-gal="prettyPhoto[product8-gal]"
-                        href="@/assets/images/shop/08-1.jpg"
+                        href="~/assets/images/shop/08-1.jpg"
                       ></a>
                     </div>
                   </div>
@@ -676,7 +468,7 @@
         <div class="row flex-wrap v-center">
           <div class="col-xs-12 col-md-5 col-md-push-6">
             <img
-              src="@/assets/images/tailoring.jpg"
+              src="~/assets/images/tailoring.jpg"
               alt=""
               class="contact-form-cover"
             />
@@ -782,7 +574,7 @@
             >
               <blockquote>
                 <div class="avatar">
-                  <img src="@/assets/images/faces/01.jpg" alt="" />
+                  <img src="~/assets/images/faces/01.jpg" alt="" />
                 </div>
                 <p>
                   Eu sou fã do Chelevi há anos. A equipe é super atenciosa e as
@@ -794,7 +586,7 @@
               </blockquote>
               <blockquote>
                 <div class="avatar">
-                  <img src="@/assets/images/faces/02.jpg" alt="" />
+                  <img src="~/assets/images/faces/02.jpg" alt="" />
                 </div>
                 <p>
                   Eu amo as roupas do Chelevi! A qualidade dos tecidos é
@@ -805,7 +597,7 @@
               </blockquote>
               <blockquote>
                 <div class="avatar">
-                  <img src="@/assets/images/faces/03.jpg" alt="" />
+                  <img src="~/assets/images/faces/03.jpg" alt="" />
                 </div>
                 <p>
                   Eu comprei um vestido no Chelevi para um casamento e foi a
@@ -822,6 +614,116 @@
     </section>
 
     <section
+      id="blog"
+      class="ls section_padding_top_150 section_padding_bottom_150"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="section_header text-center">News &amp; Events</h2>
+            <p class="small-text grey">our blogs</p>
+            <div class="row columns_margin_bottom_20">
+              <div class="isotope-item col-xs-12 col-md-6">
+                <article class="vertical-item content-absolute content-caption">
+                  <div class="item-media">
+                    <a href="blog-single-right">
+                      <img src="~/assets/images/blog-square/01.jpg" alt="" />
+                    </a>
+                    <div class="entry-meta-corner">
+                      <a href="blog-single-left">
+                        <time datetime="2017-10-03T08:50:40+00:00">20 jun</time>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="item-content ls">
+                    <h3 class="entry-title small">
+                      <a href="blog-single-right"
+                        >Ferragamo: Bringing the French Riviera to Italian
+                        menswear</a
+                      >
+                    </h3>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <article class="side-item side-md">
+                  <div class="row v-center">
+                    <div class="col-xs-12 col-md-6">
+                      <div class="item-media">
+                        <a href="blog-single-right">
+                          <img
+                            src="~/assets/images/blog-square/02.jpg"
+                            alt=""
+                          />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                      <div class="item-content">
+                        <div class="entry-meta small-text greylinks">
+                          <span class="date">
+                            <a href="blog-single-left">
+                              <time datetime="2017-10-03T08:50:40+00:00"
+                                >19 jun</time
+                              >
+                            </a>
+                          </span>
+                        </div>
+                        <h3 class="entry-title small">
+                          <a href="blog-single-right"
+                            >Bold and beautiful: Gustav Klimt inspires Turnbull
+                            & Asser</a
+                          >
+                        </h3>
+                        <a href="blog-single-right" class="more-link">more</a>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <article class="side-item side-md">
+                  <div class="row v-center">
+                    <div class="col-xs-12 col-md-6">
+                      <div class="item-media">
+                        <a href="blog-single-right">
+                          <img
+                            src="~/assets/images/blog-square/03.jpg"
+                            alt=""
+                          />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                      <div class="item-content">
+                        <div class="entry-meta small-text greylinks">
+                          <span class="date">
+                            <a href="blog-single-left">
+                              <time datetime="2017-10-03T08:50:40+00:00"
+                                >15 jun</time
+                              >
+                            </a>
+                          </span>
+                        </div>
+                        <h3 class="entry-title small">
+                          <a href="blog-single-right"
+                            >The middle ground of modern menswear at Hardy
+                            Amies</a
+                          >
+                        </h3>
+                        <a href="blog-single-right" class="more-link">more</a>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
       id="section-social"
       class="ls with_top_border columns_margin_0 topmargin_80"
     >
@@ -831,28 +733,33 @@
             <div class="page_social">
               <a
                 class="social-icon socicon-facebook dark-icon"
-                href="#"
+                :href="FACEBOOK_URL"
                 title="Facebook"
               ></a>
               <a
-                class="social-icon socicon-googleplus dark-icon"
-                href="#"
-                title="Google Plus"
-              ></a>
-              <a
-                class="social-icon socicon-linkedin dark-icon"
-                href="#"
-                title="Linkedin"
-              ></a>
-              <a
-                class="social-icon socicon-twitter dark-icon"
-                href="#"
-                title="Twitter"
+                class="social-icon socicon-whatsapp dark-icon"
+                :href="WHATSAPP_LINK_URL"
+                title="Whatsapp"
               ></a>
               <a
                 class="social-icon socicon-instagram dark-icon"
-                href="#"
+                :href="INSTAGRAM_URL"
                 title="Instagram"
+              ></a>
+              <a
+                class="social-icon socicon-telegram dark-icon"
+                :href="TELEGRAM_URL"
+                title="Telegram"
+              ></a>
+              <a
+                class="social-icon socicon-mail dark-icon"
+                :href="`mailto:${EMAIL_LINK}`"
+                title="Email"
+              ></a>
+              <a
+                class="social-icon socicon-viber dark-icon"
+                :href="`tel:${PHONE_CALL}`"
+                title="Chamada"
               ></a>
             </div>
           </div>
@@ -885,178 +792,36 @@
         </div>
       </div>
     </section>
-    <section id="gallery" class="ls fluid_padding_0 columns_padding_0">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12">
-            <div
-              class="owl-carousel gallery-carousel framed"
-              data-responsive-xlg="6"
-              data-responsive-lg="5"
-              data-responsive-md="4"
-              data-responsive-sm="3"
-              data-responsive-xs="3"
-              data-responsive-xxs="2"
-              data-loop="true"
-              data-margin="0"
-              data-nav="true"
-            >
-              <div class="vertical-item">
-                <div class="item-media">
-                  <img src="@/assets/images/gallery-square/01.jpg" alt="" />
-                  <a
-                    class="abs-link prettyPhoto"
-                    data-gal="prettyPhoto[gal]"
-                    title=""
-                    href="@/assets/images/gallery/01.jpg"
-                  >
-                  </a>
-                </div>
-              </div>
-              <div class="vertical-item">
-                <div class="item-media">
-                  <a
-                    class="p-view prettyPhoto"
-                    data-gal="prettyPhoto[gal]"
-                    title=""
-                    href="@/assets/images/gallery/02.jpg"
-                  >
-                    <img src="@/assets/images/gallery-square/02.jpg" alt="" />
-                  </a>
-                </div>
-              </div>
-              <div class="vertical-item">
-                <div class="item-media">
-                  <img src="@/assets/images/gallery-square/03.jpg" alt="" />
-                  <a
-                    class="abs-link prettyPhoto"
-                    data-gal="prettyPhoto[gal]"
-                    title=""
-                    href="@/assets/images/gallery/03.jpg"
-                  >
-                  </a>
-                </div>
-              </div>
-              <div class="vertical-item">
-                <div class="item-media">
-                  <img src="@/assets/images/gallery-square/04.jpg" alt="" />
-                  <a
-                    class="abs-link prettyPhoto"
-                    data-gal="prettyPhoto[gal]"
-                    title=""
-                    href="@/assets/images/gallery/04.jpg"
-                  >
-                  </a>
-                </div>
-              </div>
-              <div class="vertical-item">
-                <div class="item-media">
-                  <img src="@/assets/images/gallery-square/05.jpg" alt="" />
-                  <a
-                    class="abs-link prettyPhoto"
-                    data-gal="prettyPhoto[gal]"
-                    title=""
-                    href="@/assets/images/gallery/05.jpg"
-                  >
-                  </a>
-                </div>
-              </div>
-              <div class="vertical-item">
-                <div class="item-media">
-                  <img src="@/assets/images/gallery-square/06.jpg" alt="" />
-                  <a
-                    class="abs-link prettyPhoto"
-                    data-gal="prettyPhoto[gal]"
-                    title=""
-                    href="@/assets/images/gallery/06.jpg"
-                  >
-                  </a>
-                </div>
-              </div>
-              <div class="vertical-item">
-                <div class="item-media">
-                  <img src="@/assets/images/gallery-square/07.jpg" alt="" />
-                  <a
-                    class="abs-link prettyPhoto"
-                    data-gal="prettyPhoto[gal]"
-                    title=""
-                    href="@/assets/images/gallery/07.jpg"
-                  >
-                  </a>
-                </div>
-              </div>
-              <div class="vertical-item">
-                <div class="item-media">
-                  <img src="@/assets/images/gallery-square/08.jpg" alt="" />
-                  <a
-                    class="abs-link prettyPhoto"
-                    data-gal="prettyPhoto[gal]"
-                    title=""
-                    href="@/assets/images/gallery/08.jpg"
-                  >
-                  </a>
-                </div>
-              </div>
-              <div class="vertical-item">
-                <div class="item-media">
-                  <img src="@/assets/images/gallery-square/09.jpg" alt="" />
-                  <a
-                    class="abs-link prettyPhoto"
-                    data-gal="prettyPhoto[gal]"
-                    title=""
-                    href="@/assets/images/gallery/09.jpg"
-                  >
-                  </a>
-                </div>
-              </div>
-              <div class="vertical-item">
-                <div class="item-media">
-                  <img src="@/assets/images/gallery-square/10.jpg" alt="" />
-                  <a
-                    class="abs-link prettyPhoto"
-                    data-gal="prettyPhoto[gal]"
-                    title=""
-                    href="@/assets/images/gallery/10.jpg"
-                  >
-                  </a>
-                </div>
-              </div>
-              <div class="vertical-item">
-                <div class="item-media">
-                  <img src="@/assets/images/gallery-square/11.jpg" alt="" />
-                  <a
-                    class="abs-link prettyPhoto"
-                    data-gal="prettyPhoto[gal]"
-                    title=""
-                    href="@/assets/images/gallery/11.jpg"
-                  >
-                  </a>
-                </div>
-              </div>
-              <div class="vertical-item">
-                <div class="item-media">
-                  <img src="@/assets/images/gallery-square/12.jpg" alt="" />
-                  <a
-                    class="abs-link prettyPhoto"
-                    data-gal="prettyPhoto[gal]"
-                    title=""
-                    href="@/assets/images/gallery/12.jpg"
-                  >
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <gallery-scroll />
   </main>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage',
-})
+<script>
+import {
+  EMAIL_LINK,
+  FACEBOOK_URL,
+  INSTAGRAM_URL,
+  PHONE_CALL,
+  TELEGRAM_URL,
+  WHATSAPP_LINK_URL,
+} from '@/constants'
+import GalleryScroll from '@/components/galleryScroll.vue'
+import MainCarrousel from '@/components/mainCarrousel.vue'
+import OurTextiles from '@/components/OurTextiles.vue'
+export default {
+  components: {
+    GalleryScroll,
+    MainCarrousel,
+    OurTextiles,
+  },
+  data: function () {
+    return {
+      EMAIL_LINK,
+      FACEBOOK_URL,
+      INSTAGRAM_URL,
+      PHONE_CALL,
+      TELEGRAM_URL,
+      WHATSAPP_LINK_URL,
+    }
+  },
+}
 </script>
