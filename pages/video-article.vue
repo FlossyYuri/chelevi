@@ -1,19 +1,6 @@
 <template>
   <main>
-    <section class="page_breadcrumbs ls background_cover section_padding_50">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 text-center">
-            <h1 class="sr-only">Video Post Page</h1>
-            <ol class="breadcrumb darklinks">
-              <li><a href="./"> Home </a></li>
-              <li><a href="#">Blog</a></li>
-              <li class="active"><span>Video Post Page</span></li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </section>
+    <breadcrumb-item title="Blog" uri="Video" />
     <section
       class="ls section_padding_top_150 section_padding_bottom_150 columns_padding_30"
     >
@@ -525,10 +512,12 @@
   </main>
 </template>
 <script>
+import BreadcrumbItem from '../components/breadcrumbItem.vue'
 import GalleryScroll from '@/components/galleryScroll.vue'
 export default {
   components: {
     GalleryScroll,
+    BreadcrumbItem,
   },
 }
 </script>

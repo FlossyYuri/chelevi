@@ -1,19 +1,6 @@
 <template>
   <main>
-    <section class="page_breadcrumbs ls background_cover section_padding_50">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 text-center">
-            <h1 class="sr-only">Gallery Tile</h1>
-            <ol class="breadcrumb darklinks">
-              <li><a href="./"> Home </a></li>
-              <li><a href="/">Gallery</a></li>
-              <li class="active"><span>Gallery Tile</span></li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </section>
+    <breadcrumb-item title="Home" uri="Galeria" />
     <section
       class="ls page_portfolio section_padding_top_150 columns_padding_0 columns_margin_0 container_padding_0"
     >
@@ -366,10 +353,12 @@
   </main>
 </template>
 <script>
+import BreadcrumbItem from '../components/breadcrumbItem.vue'
 import GalleryScroll from '@/components/galleryScroll.vue'
 export default {
   components: {
     GalleryScroll,
+    BreadcrumbItem,
   },
 }
 </script>
