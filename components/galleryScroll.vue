@@ -15,146 +15,14 @@
             data-margin="0"
             data-nav="true"
           >
-            <div class="vertical-item">
+            <div v-for="image in images" :key="image" class="vertical-item">
               <div class="item-media">
-                <img src="~/assets/images/gallery-square/01.jpg" alt="" />
+                <img :src="`/_nuxt/${image}`" alt="" />
                 <a
                   class="abs-link prettyPhoto"
                   data-gal="prettyPhoto[gal]"
                   title=""
-                  href="~/assets/images/gallery/01.jpg"
-                >
-                </a>
-              </div>
-            </div>
-            <div class="vertical-item">
-              <div class="item-media">
-                <a
-                  class="p-view prettyPhoto"
-                  data-gal="prettyPhoto[gal]"
-                  title=""
-                  href="~/assets/images/gallery/02.jpg"
-                >
-                  <img src="~/assets/images/gallery-square/02.jpg" alt="" />
-                </a>
-              </div>
-            </div>
-            <div class="vertical-item">
-              <div class="item-media">
-                <img src="~/assets/images/gallery-square/03.jpg" alt="" />
-                <a
-                  class="abs-link prettyPhoto"
-                  data-gal="prettyPhoto[gal]"
-                  title=""
-                  href="~/assets/images/gallery/03.jpg"
-                >
-                </a>
-              </div>
-            </div>
-            <div class="vertical-item">
-              <div class="item-media">
-                <img src="~/assets/images/gallery-square/04.jpg" alt="" />
-                <a
-                  class="abs-link prettyPhoto"
-                  data-gal="prettyPhoto[gal]"
-                  title=""
-                  href="~/assets/images/gallery/04.jpg"
-                >
-                </a>
-              </div>
-            </div>
-            <div class="vertical-item">
-              <div class="item-media">
-                <img src="~/assets/images/gallery-square/05.jpg" alt="" />
-                <a
-                  class="abs-link prettyPhoto"
-                  data-gal="prettyPhoto[gal]"
-                  title=""
-                  href="~/assets/images/gallery/05.jpg"
-                >
-                </a>
-              </div>
-            </div>
-            <div class="vertical-item">
-              <div class="item-media">
-                <img src="~/assets/images/gallery-square/06.jpg" alt="" />
-                <a
-                  class="abs-link prettyPhoto"
-                  data-gal="prettyPhoto[gal]"
-                  title=""
-                  href="~/assets/images/gallery/06.jpg"
-                >
-                </a>
-              </div>
-            </div>
-            <div class="vertical-item">
-              <div class="item-media">
-                <img src="~/assets/images/gallery-square/07.jpg" alt="" />
-                <a
-                  class="abs-link prettyPhoto"
-                  data-gal="prettyPhoto[gal]"
-                  title=""
-                  href="~/assets/images/gallery/07.jpg"
-                >
-                </a>
-              </div>
-            </div>
-            <div class="vertical-item">
-              <div class="item-media">
-                <img src="~/assets/images/gallery-square/08.jpg" alt="" />
-                <a
-                  class="abs-link prettyPhoto"
-                  data-gal="prettyPhoto[gal]"
-                  title=""
-                  href="~/assets/images/gallery/08.jpg"
-                >
-                </a>
-              </div>
-            </div>
-            <div class="vertical-item">
-              <div class="item-media">
-                <img src="~/assets/images/gallery-square/09.jpg" alt="" />
-                <a
-                  class="abs-link prettyPhoto"
-                  data-gal="prettyPhoto[gal]"
-                  title=""
-                  href="~/assets/images/gallery/09.jpg"
-                >
-                </a>
-              </div>
-            </div>
-            <div class="vertical-item">
-              <div class="item-media">
-                <img src="~/assets/images/gallery-square/10.jpg" alt="" />
-                <a
-                  class="abs-link prettyPhoto"
-                  data-gal="prettyPhoto[gal]"
-                  title=""
-                  href="~/assets/images/gallery/10.jpg"
-                >
-                </a>
-              </div>
-            </div>
-            <div class="vertical-item">
-              <div class="item-media">
-                <img src="~/assets/images/gallery-square/11.jpg" alt="" />
-                <a
-                  class="abs-link prettyPhoto"
-                  data-gal="prettyPhoto[gal]"
-                  title=""
-                  href="~/assets/images/gallery/11.jpg"
-                >
-                </a>
-              </div>
-            </div>
-            <div class="vertical-item">
-              <div class="item-media">
-                <img src="~/assets/images/gallery-square/12.jpg" alt="" />
-                <a
-                  class="abs-link prettyPhoto"
-                  data-gal="prettyPhoto[gal]"
-                  title=""
-                  href="~/assets/images/gallery/12.jpg"
+                  :href="`/_nuxt/${image}`"
                 >
                 </a>
               </div>
@@ -165,3 +33,24 @@
     </div>
   </section>
 </template>
+<script>
+const images = [
+  'assets/images/gallery/01.jpg',
+  'assets/images/gallery/02.jpg',
+  'assets/images/gallery/03.jpg',
+  'assets/images/gallery/04.jpg',
+  'assets/images/gallery/05.jpg',
+  'assets/images/gallery/06.jpg',
+  'assets/images/gallery/07.jpg',
+  'assets/images/gallery/08.jpg',
+  'assets/images/gallery/09.jpg',
+  'assets/images/gallery/10.jpg',
+  'assets/images/gallery/11.jpg',
+  'assets/images/gallery/12.jpg',
+]
+export default {
+  data: function () {
+    return { images }
+  },
+}
+</script>

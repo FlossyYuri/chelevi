@@ -202,7 +202,7 @@
                         <div class="media-left">
                           <i class="qtyler-phone"></i>
                         </div>
-                        <div class="media-body">+258 85 223 2423</div>
+                        <div class="media-body">{{ PHONE_CALL }}</div>
                       </div>
                     </li>
                     <li>
@@ -211,7 +211,7 @@
                           <i class="qtyler-envelope"></i>
                         </div>
                         <div class="media-body">
-                          <a href="mailto:#">chelevi@gmail.com</a>
+                          <a :href="`mailto:`">{{ EMAIL_LINK }}</a>
                         </div>
                       </div>
                     </li>
@@ -220,7 +220,7 @@
                         <div class="media-left">
                           <i class="qtyler-map-marker"></i>
                         </div>
-                        <div class="media-body">Bairo do Alto mae, Maputo</div>
+                        <div class="media-body">{{ LOCATION_TEXT }}</div>
                       </div>
                     </li>
                   </ul>
@@ -288,3 +288,16 @@
     </div>
   </div>
 </template>
+
+<script>
+import { PHONE_CALL, EMAIL_LINK, LOCATION_TEXT } from '@/constants'
+export default {
+  data: function () {
+    return {
+      PHONE_CALL,
+      EMAIL_LINK,
+      LOCATION_TEXT,
+    }
+  },
+}
+</script>

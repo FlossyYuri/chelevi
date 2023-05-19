@@ -1,69 +1,74 @@
 <template>
   <main>
-    <breadcrumb-item title="Home" uri="Contact" />
-    <section class="ls section_padding_top_150 section_padding_bottom_150">
+    <breadcrumb-item title="Home" uri="Contacto" />
+    <section class="ls pt-32">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <section
-              id="map"
-              class="ls ms"
-              data-address="522 Chapel St, South Yarra VIC 3141, Australia"
-            >
-              <!-- marker description and marker icon goes here -->
-              <div class="map_marker_description">
-                <h3>Map Title</h3>
-                <p>Map description text</p>
+            <section class="ls ms h-96 relative overflow-hidden">
+              <a
+                :href="GOOGLE_LOCATION_LINK"
+                target="_blank"
+                class="h-full"
+                rel="noopener noreferrer"
+              >
+                <div
+                  class="bg-white bg-opacity-50 z-10 relative text-gray-700 text-center"
+                >
+                  <h3>Localização da Chelevi</h3>
+                  <p class="font-medium">
+                    Clique na imagem para abrir a localização no google maps
+                  </p>
+                </div>
                 <img
-                  class="map_marker_icon"
-                  src="~/assets/images/map_marker_icon.png"
+                  class="absolute h-full w-full object-cover top-0"
+                  src="~/assets/images/map.png"
                   alt=""
                 />
-              </div>
+              </a>
             </section>
           </div>
         </div>
         <div class="row topmargin_40">
-          <div class="col-sm-4 to_animate" data-animation="pullDown">
+          <div class="col-sm-4">
             <div class="teaser text-center">
               <div class="teaser_icon highlight size_normal">
                 <i class="rt-icon2-phone5"></i>
               </div>
               <p>
-                <span class="grey">Phone:</span> +12 345 678 9123<br />
-                <span class="grey">Fax:</span> +12 345 678 9123
+                <span class="grey">Telefone:</span>{{ PHONE_CALL }}<br />
+                <span class="grey">Whatsapp:</span>{{ PHONE_CALL }}
               </p>
             </div>
           </div>
-          <div class="col-sm-4 to_animate" data-animation="pullDown">
+          <div class="col-sm-4">
             <div class="teaser text-center">
               <div class="teaser_icon highlight size_normal">
                 <i class="rt-icon2-location2"></i>
               </div>
               <p>
-                PO Box 54378<br />
-                4321 Your Address,<br />
-                Your City, Your Country
+                {{ LOCATION_TEXT }}<br />
+                Maputo Cidade, Moçambique
               </p>
             </div>
           </div>
-          <div class="col-sm-4 to_animate" data-animation="pullDown">
+          <div class="col-sm-4">
             <div class="teaser text-center">
               <div class="teaser_icon highlight size_normal">
                 <i class="rt-icon2-mail"></i>
               </div>
-              <p>support@yourname.com</p>
+              <p>{{ EMAIL_LINK }}</p>
             </div>
           </div>
         </div>
         <div class="row topmargin_40">
-          <div class="col-sm-12 to_animate">
+          <div class="col-sm-12">
             <form class="contact-form" method="post" action="./">
               <div class="row">
                 <div class="col-sm-6">
                   <p class="form-group">
                     <label for="name"
-                      >Full Name <span class="required">*</span></label
+                      >Nome completo <span class="required">*</span></label
                     >
                     <i class="fa fa-user highlight" aria-hidden="true"></i>
                     <input
@@ -74,12 +79,12 @@
                       value=""
                       name="name"
                       class="form-control"
-                      placeholder="Full Name"
+                      placeholder="Nome completo"
                     />
                   </p>
                   <p class="form-group">
                     <label for="email"
-                      >Email address<span class="required">*</span></label
+                      >Email<span class="required">*</span></label
                     >
                     <i class="fa fa-envelope highlight" aria-hidden="true"></i>
                     <input
@@ -90,12 +95,12 @@
                       value=""
                       name="email"
                       class="form-control"
-                      placeholder="Email Address"
+                      placeholder="Email"
                     />
                   </p>
                   <p class="form-group">
                     <label for="subject"
-                      >Subject<span class="required">*</span></label
+                      >Assunto<span class="required">*</span></label
                     >
                     <i class="fa fa-flag highlight" aria-hidden="true"></i>
                     <input
@@ -106,22 +111,22 @@
                       value=""
                       name="subject"
                       class="form-control"
-                      placeholder="Subject"
+                      placeholder="Assunto"
                     />
                   </p>
                 </div>
                 <div class="col-sm-6">
                   <p class="contact-form-message form-group">
-                    <label for="message">Message</label>
+                    <label for="message">Mensagem</label>
                     <i class="fa fa-comment highlight" aria-hidden="true"></i>
                     <textarea
                       id="message"
                       aria-required="true"
-                      rows="6"
+                      rows="7"
                       cols="45"
                       name="message"
                       class="form-control"
-                      placeholder="Message"
+                      placeholder="Mensagem"
                     ></textarea>
                   </p>
                 </div>
@@ -135,7 +140,7 @@
                       name="contact_submit"
                       class="theme_button color1 margin_0"
                     >
-                      Send Message
+                      Enviar mensagem
                     </button>
                   </p>
                 </div>
@@ -145,42 +150,35 @@
         </div>
       </div>
     </section>
-    <section class="ls section_padding_top_150 section_padding_bottom_150">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3 text-center"
-          >
-            <h2 class="section_header small">Our Newsletter</h2>
-            <p class="small-text grey">subscribe</p>
-            <div class="widget widget_mailchimp">
-              <form class="signup" action="./" method="get">
-                <div class="form-group">
-                  <input
-                    class="mailchimp_email form-control"
-                    name="email"
-                    type="email"
-                    placeholder="Email Address"
-                  />
-                  <button type="submit" class="theme_button">Sign Up!</button>
-                </div>
-                <div class="response"></div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <news-letter />
     <gallery-scroll />
   </main>
 </template>
 <script>
 import BreadcrumbItem from '../components/breadcrumbItem.vue'
+import NewsLetter from '../components/newsLetter.vue'
+import {
+  GOOGLE_LOCATION_LINK,
+  EMAIL_LINK,
+  PHONE_CALL,
+  WHATSAPP_LINK_URL,
+  LOCATION_TEXT,
+} from '@/constants'
 import GalleryScroll from '@/components/galleryScroll.vue'
 export default {
   components: {
     GalleryScroll,
     BreadcrumbItem,
+    NewsLetter,
+  },
+  data: function () {
+    return {
+      GOOGLE_LOCATION_LINK,
+      EMAIL_LINK,
+      PHONE_CALL,
+      WHATSAPP_LINK_URL,
+      LOCATION_TEXT,
+    }
   },
 }
 </script>
